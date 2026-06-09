@@ -1,6 +1,6 @@
 # Kubernetes Practice Repository
 
-This repository contains Kubernetes hands-on labs completed for DevOps learning and interview preparation.
+This repository contains Kubernetes hands-on labs completed for DevOps learning, troubleshooting practice, and interview preparation.
 
 ## Repository Structure
 
@@ -39,9 +39,34 @@ Advanced Kubernetes labs:
 * Persistent Volumes
 * Persistent Volume Claims
 * Storage Troubleshooting
+* Application Deployments
+* Kubernetes Troubleshooting Scenarios
+
+## Topics Covered
+
+* Pod Management
+* Workloads (Deployments, ReplicaSets, Jobs, CronJobs)
+* Networking and Services
+* Storage and Volumes
+* Configuration Management
+* Multi-Container Pods
+* Application Deployment
+* High Availability and Scaling
+* Rolling Updates and Rollbacks
+* Kubernetes Troubleshooting
 
 ## Objective
 
 Build practical Kubernetes administration and troubleshooting skills through hands-on exercises and real-world scenarios.
 
+## Tools
+
+* Kubernetes
+* kubectl
+* Docker
+* Linux
+
+## Author
+
+Dinesh Patil
 
