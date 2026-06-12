@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+name: print-envars-greeting
+spec:
+restartPolicy: Never
+containers:
+
+* name: print-env-container
+  image: bash
+  env:
+
+  * name: GREETING
+    value: "Welcome to"
+  * name: COMPANY
+    value: "Stratos"
+  * name: GROUP
+    value: "Ltd"
+    command:
+  * "/bin/sh"
+  * "-c"
+  * 'echo "$(GREETING) $(COMPANY) $(GROUP)"'
+
